@@ -1,0 +1,6 @@
+
+ListIterator<String> listIter = myList.listIterator(myList.size()-1);
+while (listIter.hasPrevious()) {
+    String prev = listIter.previous();
+    // Do something with prev here
+}
